@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in `seq 4000 4099`
+for i in `seq 4000 4999`
 do
     touch $i
 
