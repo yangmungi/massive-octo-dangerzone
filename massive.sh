@@ -5,10 +5,17 @@ do
     touch $i
 
     strwrites=$RANDOM
-    let "strwrites %= 100"
+    let "strwrites %= 400"
+
+    filestr=""
 
     for j in `seq $strwrites`
     do
-        echo $RANDOM >> $i
+        writestr=$RANDOM
+        let "writestr %= 2"
+
+        filestr=$filestr$writestr
     done
+
+    echo $filestr > $i
 done
