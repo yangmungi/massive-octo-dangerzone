@@ -1,21 +1,11 @@
 massive-octo-dangerzone
 =======================
 
-Test repository for Git Hooks
+Abstract: Automatically commits to Git.
 
-This is to test a tag.
-Also to test branches!
+Contains a small number of scripts that shall generate a bunch of ASCII non-sense!
+It shall also commit these change into the local Git repository, and then it shall push them to the remote, 'origin' !
 
-Also more changes!
+This is a dangerous script, it SHALL fill up your storage if you are NOT CAREFUL.
 
-RC-edit.
-GM-cutting...
-For reals, this time...
-
-This is something awesome.
-
-Even more edits... I think I am running out of things to say.
-
-I messed up.
-
-Once again, another forgot to do.
+The primary function of this was to test Github Web-hooks while practicing some Bash, and making everything feel meta.
