@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# generates a bunch of output with random binary strings in them
+
 strwrites=$RANDOM
 let "strwrites %= $1" 
 
