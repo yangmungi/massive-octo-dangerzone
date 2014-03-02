@@ -8,5 +8,5 @@ then
     exit 1
 fi
 
-rm -rv ./rec-mirror.git
-/usr/bin/git remote origin remove $1
+rm -rfv ./rec-mirror.git
+/usr/bin/git remote remove $1
