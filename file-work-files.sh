@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# generates many files
+
 if [ ! -d workers ]; then
     mkdir workers
 fi

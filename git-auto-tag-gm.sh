@@ -11,4 +11,4 @@ gmnum=`printf $printfmode $new`
 
 gmtag=$gmnum"-gm"
 
-git tag $gmtag
+/usr/bin/git tag $gmtag
